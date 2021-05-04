@@ -1,0 +1,25 @@
+{
+  "name": "Type",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "t": "",
+    "dev": " npm run build && npm start"
+  },
+  "keywords": [],
+  "author": "", 
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "discord.js": "^11.6.1",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.28"
+  }
+}
